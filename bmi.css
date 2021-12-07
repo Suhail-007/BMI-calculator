@@ -1,0 +1,60 @@
+*, *::before, *::after {
+		box-sizing: border-box;
+}
+
+body {
+		background: whitesmoke;
+		margin: 0;
+		font-family: Times New Roman;
+}
+
+.main-div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+
+.main-div h1 {
+		font-size: 7vw;
+}
+
+.main-div p {
+		font-size: 4vw;
+}
+
+.bmi-div {
+		background: white;
+		padding: 3vw;
+		width: 90vw;
+		min-height: 30vh;
+		border: 1px solid black;
+		border-radius: 1vw;
+}
+
+label {
+		margin: 2vw 0;
+		font-size: 3.5vw;
+}
+
+#weight,
+#height {
+		font-size: 3vw;
+		padding: 1vw 1vw;
+}
+
+.bmi-div div {
+		margin: 4vw 0;
+		display: flex;
+		flex-direction: column;
+}
+
+button {
+		background: none;
+		border: none;
+		background-color: #d7ebeb;
+		padding: 2vw;
+		width: 80%;
+		font-size: 4vw;
+		margin: 0 auto;
+}
