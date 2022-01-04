@@ -1,3 +1,3 @@
 # BMI-calculator 
-Body Max Index Calculator
+Body Mass Index Calculator
 here's the link: https://suhail-007.github.io/BMI-calculator/
